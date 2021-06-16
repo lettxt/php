@@ -1,0 +1,23 @@
+{
+    "name": "lettxt",
+    "title": "lettxt",
+    "description": "lettxt() function & lettxt class are downloading data or files by http request",
+    "version": "{{VER}}",
+    "keywords": [
+        "lettxt", "json", "get", "request", "http"
+    ],
+    "author": {
+        "name": "Tom Sapletta",
+        "email": "info@softreck.dev",
+        "url": "http://softreck.dev"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "homepage": "https://php.lettxt.com/",
+    "bugs": "https://github.com/lettxt/php/issues",
+    "demo": "http://demo.lettxt.com/",
+    "docs": "http://docs.lettxt.com/",
+    "download": "https://github.com/lettxt/php/releases",
+}

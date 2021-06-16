@@ -1,0 +1,37 @@
+{
+  "name": "lettxt/plesk.index.php",
+  "description": "Plesk api client to get all domains",
+  "authors": [
+    {
+      "name": "Tom Sapletta",
+      "email": "info@softreck.dev"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-curl": "*",
+    "plesk/api-php-lib": "^1.0",
+    "symfony/http-client": "^5.2",
+    "lettxt/composer": "dev-main"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "spatie/phpunit-watcher": "^1.22"
+  },
+  "autoload": {
+    "psr-4": {
+      "lettxt\\PleskDomainsPhp\\": "php/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "lettxt\\PleskDomainsPhp\\": "tests/"
+    }
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080 -t php"
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}
