@@ -5,12 +5,11 @@
 /**
  * @param array|string $url
  * @param null $callback
- * @param false $associative
  * @return false|mixed|string
  *
  * @throws Exception
  */
-function let_txt($url, $callback = null, $associative = false)
+function let_txt($url, $callback = null)
 {
 	if (empty($url)) {
 		throw new Exception("Url: $url is empty");
@@ -88,7 +87,10 @@ class LetTxt
 }
 
 
-
+/**
+ * @param string $url
+ * @return bool
+ */
 function url_exists($url)
 {
 	if (curl_init($url) === false) {
