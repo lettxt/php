@@ -1,4 +1,5 @@
 github: tom-sapletta-com
-open_collective: ["tom-sapletta-com", "softreck","webstream"]
+open_collective: "tom-sapletta-com"
+open_collective: "softreck"
 tidelift: npm/lettxt
 custom: ["https://donate.softreck.dev", "https://www.paypal.me/softreck/10.00"]
