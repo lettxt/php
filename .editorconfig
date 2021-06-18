@@ -1,5 +1,7 @@
+; top-most EditorConfig file
 root = true
 
+# All files.
 [*]
 indent_style = tab
 end_of_line = lf

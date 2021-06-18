@@ -25,7 +25,9 @@
 		"http",
 		"file",
 		"let",
-		"query"
+		"text",
+		"request",
+		"download"
 	],
 	"devDependencies": {
 		"noop-stream": "^0.1.0"

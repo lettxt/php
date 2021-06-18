@@ -1,8 +1,10 @@
 .plesk.txt
 .idea/
 .apifunc/apifunc.php
+.apifunc/*.php
 vendor/
 packagist.bat
+
 # Logs
 logs
 *.log
